@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.helloCordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>Twitter Search push</name>
+    <description>
+        An app that receives tweets and push notification on new tweets.
+    </description>
+    <author email="orchard@pacificspirit.com" href="http://www.pacificspirit.com">
+        David Orchard
+    </author>
+    <content src="index.html" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="PushNotificationPlugin">
+        <param name="ios-package" value="PushNotificationPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <access origin="*" />
+    <preference name="com.urbanairship.production_app_key" value="Your production app key" />
+    <preference name="com.urbanairship.production_app_secret" value="Your production app secret" />
+    <preference name="com.urbanairship.development_app_key" value="njIAYS0iSgCLjahW_KklwQ" />
+    <preference name="com.urbanairship.development_app_secret" value="2Q5ah1ZmQE6OenpRZQOrbg" />
+    <preference name="com.urbanairship.in_production" value="If the app is in production or not" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="UIWebViewBounce" value="true" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="EnableLocation" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+</widget>

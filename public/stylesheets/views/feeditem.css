@@ -1,0 +1,71 @@
+/*Copyright (C) 2013 David Orchard
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.feeditem {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  min-height: 51px;
+  padding: 6px 3px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: -webkit-match-parent;
+}
+.feeditemusericondiv {
+	text-align: right;
+  overflow: hidden;
+  height: 48px;
+  width: 48px;
+}
+.feeditemusericon {
+  background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  width: 48px;
+  height: 48px;
+}
+
+.user-name {
+	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.feeditembodyandfooter {
+  webkit-box-flex: 1;
+  margin-left: 2px;
+  margin-right: 40px;
+}
+
+.feeditembody {
+  margin-bottom: 5px;
+}
+
+.preamble {
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 5px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction:row;
+  flex-direction: row;
+  width: 100%;
+  line-height: 18px;
+}
+
+.feeditemfooter {
+  text-align:right;
+}

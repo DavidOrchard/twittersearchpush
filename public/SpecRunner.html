@@ -1,0 +1,51 @@
+<!--Copyright (C) 2013 David Orchard
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Jasmine Spec Runner</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/jasmine.css">
+  <script type="text/template" id="feedItemTemplate">
+  <div class="feeditem">
+    <div class="feeditemusericondiv">
+      <img class="feeditemusericon" src="<%= user.profile_image_url %>" alt="<%= user.screen_name %>"/>
+    </div>
+      <div class="feeditembodyandfooter container">
+        <div class="feeditembody">
+          <div class="preamble">
+            <div class="user-name"><%= user.screen_name %></div>
+            <div class="timestamp"><%= created_at.substring(0,19) %></div>
+          </div>
+          <%= text %>
+        </div>
+        <div class="feeditemfooter"></div>
+    </div>
+  </div>
+  </script>
+  
+  <script src="javascripts/lib/jasmine.js"></script>
+  <script src="javascripts/lib/jasmine-html.js"></script>
+  <script src="javascripts/lib/console-runner.js"></script>
+
+  <script src="javascripts/lib/require.js" ></script>
+</head>
+<body>
+    <script>
+      require(["javascripts/test/specs/spec"], function(spec) {
+        var console_reporter = new jasmine.ConsoleReporter();
+        
+        // Hack solution from https://github.com/jcarver989/phantom-jasmine/issues/2
+        window.console_reporter = console_reporter; // <<< Add console_reporter to the window object
+        jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+        jasmine.getEnv().addReporter(console_reporter);
+        jasmine.getEnv().execute();
+      });
+    </script>
+   </body>
+</html>

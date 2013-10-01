@@ -1,0 +1,114 @@
+[
+    {
+        "contributors": null, 
+        "coordinates": null, 
+        "created_at": "Wed Sep 25 02:11:17 +0000 2013", 
+        "entities": {
+            "hashtags": [], 
+            "symbols": [
+                {
+                    "indices": [
+                        139, 
+                        144
+                    ], 
+                    "text": "AAPL"
+                }
+            ], 
+            "urls": [
+                {
+                    "display_url": "ow.ly/oZr6r", 
+                    "expanded_url": "http://ow.ly/oZr6r", 
+                    "indices": [
+                        116, 
+                        138
+                    ], 
+                    "url": "http://t.co/jOP1JMYiwl"
+                }
+            ], 
+            "user_mentions": [
+                {
+                    "id": 123671382, 
+                    "id_str": "123671382", 
+                    "indices": [
+                        5, 
+                        16
+                    ], 
+                    "name": "Rob Fundora", 
+                    "screen_name": "stockdarts"
+                }, 
+                {
+                    "id": 150027035, 
+                    "id_str": "150027035", 
+                    "indices": [
+                        17, 
+                        32
+                    ], 
+                    "name": "jeff w", 
+                    "screen_name": "cerebraltrades"
+                }
+            ]
+        }, 
+        "favorite_count": 0, 
+        "favorited": false, 
+        "geo": null, 
+        "id": 382688727895904256, 
+        "id_str": "382688727895904256", 
+        "in_reply_to_screen_name": null, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "lang": "en", 
+        "place": null, 
+        "possibly_sensitive": false, 
+        "retweet_count": 0, 
+        "retweeted": false, 
+        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>", 
+        "text": "Join @stockdarts @cerebraltrades tomorrow @ 12:30pmEST &amp; learn about upcoming October Earnings Options Workshop http://t.co/jOP1JMYiwl $AAPL", 
+        "truncated": false, 
+        "user": {
+            "id": 220451297, 
+            "id_str": "220451297"
+        }
+    }, 
+    {
+        "contributors": null, 
+        "coordinates": null, 
+        "created_at": "Tue Sep 24 19:26:27 +0000 2013", 
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        22, 
+                        33
+                    ], 
+                    "text": "afterhours"
+                }
+            ], 
+            "symbols": [], 
+            "urls": [], 
+            "user_mentions": []
+        }, 
+        "favorite_count": 0, 
+        "favorited": false, 
+        "geo": null, 
+        "id": 382586849065459712, 
+        "id_str": "382586849065459712", 
+        "in_reply_to_screen_name": null, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "lang": "en", 
+        "place": null, 
+        "retweet_count": 0, 
+        "retweeted": false, 
+        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>", 
+        "text": "heading out will post #afterhours movers when I get back - enjoy the close but seems very toppy up here today", 
+        "truncated": false, 
+        "user": {
+            "id": 220451297, 
+            "id_str": "220451297"
+        }
+    }
+]

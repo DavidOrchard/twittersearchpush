@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pacificspirit.twittersearchpush" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>twittersearchpush</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@callback.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <feature name="PushNotificationPlugin">
+        <param name="android-package" value="com.urbanairship.phonegap.PushNotificationPlugin" />
+        <param name="ios-package" value="PushNotificationPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    
+    <preference name="com.urbanairship.production_app_key" value="Your production app key" />
+    <preference name="com.urbanairship.production_app_secret" value="Your production app secret" />
+    <preference name="com.urbanairship.development_app_key" value="njIAYS0iSgCLjahW_KklwQ" />
+    <preference name="com.urbanairship.development_app_secret" value="2Q5ah1ZmQE6OenpRZQOrbg" />
+    <preference name="com.urbanairship.in_production" value="If the app is in production or not" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+</widget>

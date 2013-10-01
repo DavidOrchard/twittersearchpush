@@ -1,0 +1,41 @@
+[    {
+        "contributors": null, 
+        "coordinates": null, 
+        "created_at": "Tue Sep 24 19:19:45 +0000 2013", 
+        "entities": {
+            "hashtags": [], 
+            "symbols": [
+                {
+                    "indices": [
+                        19, 
+                        24
+                    ], 
+                    "text": "QCOR"
+                }
+            ], 
+            "urls": [], 
+            "user_mentions": []
+        }, 
+        "favorite_count": 0, 
+        "favorited": false, 
+        "geo": null, 
+        "id": 382585164356136960, 
+        "id_str": "382585164356136960", 
+        "in_reply_to_screen_name": null, 
+        "in_reply_to_status_id": null, 
+        "in_reply_to_status_id_str": null, 
+        "in_reply_to_user_id": null, 
+        "in_reply_to_user_id_str": null, 
+        "lang": "en", 
+        "place": null, 
+        "retweet_count": 0, 
+        "retweeted": false, 
+        "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">HootSuite</a>", 
+        "text": "ok doubled up that $QCOR -- see if makes a move to that $60-$64 == but into $62 I would definitely sell &amp; maybe add into a $55 drop /", 
+        "truncated": false, 
+        "user": {
+            "id": 220451297, 
+            "id_str": "220451297"
+        }
+    }
+]

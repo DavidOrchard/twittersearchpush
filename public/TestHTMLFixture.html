@@ -1,0 +1,19 @@
+<section class="feedcontainer">
+  <section class="feeditemssearch">
+    <form>
+      <p>Please enter your twitter search below.  The search will be saved for you so you can return any time.  You can refresh the results manually and there is an automatic refresh</p>
+      <label for="searchInput">Enter Search</label><input id="searchInput" class="search" placeholder="search" type="search" maxlength="1000" label="search input" required aria-required="true"/>
+      <span class="searchsubmit" type="button" title="Get Tweets" ></span>
+    </form>
+  </section><!-- feeditemsearch -->
+  <section class="feeditemscollectioncontainer">
+    <p>You can refresh the results manually and there is an automatic refresh.</p>
+    <span class="refreshsubmit" title="Refresh Search" label="Refresh Search"></span>Results for <strong class="querystring"></strong>
+    <!-- for testing purposes only --> <span class="resetsubmit" type="button" style="display:none"> reset</span>
+    <section class="feeditemscollection"></section>
+  </section>
+  <section class="errormessage">
+    <span class="noSearchResults"><span class="header">No Tweet results for </span><span class="querystring"></span></span>
+    <span class="otherError"><span class="header"></span></span>
+  </section>
+</section>

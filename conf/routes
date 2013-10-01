@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /proxy                      controllers.Application.proxy(oldest_id, newest_id)
+GET     /                           controllers.Assets.at(path="/public", file="index.html")
+
+GET     /javascripts/*file          controllers.Assets.at(path="/public/javascripts", file)
+GET     /images/*file               controllers.Assets.at(path="/public/images", file)
+GET     /stylesheets/*file          controllers.Assets.at(path="/public/stylesheets", file)
+GET     /*file                      controllers.Assets.at(path="/public", file)
+

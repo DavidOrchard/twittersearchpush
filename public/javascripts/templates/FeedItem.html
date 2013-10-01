@@ -1,0 +1,10 @@
+<div class="feeditem">
+  <img class="feeditemusericon" src="<%= user.profile_image_url %>" alt="<%= user.screen_name %>"/>
+    <div class="feeditembodyandfooter container">
+      <div class="feeditembody">
+        <div class="preamble"><%= screen_name %></div>
+        <%= text %>
+      </div>
+      <div class="feeditemfooter"><%= created_at.substring(0,19) %></div>
+    </div>
+</div>
